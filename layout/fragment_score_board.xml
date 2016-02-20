@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/FrameLayout_Frag"
+    tools:context="project01.csc296.project01.ScoreBoardFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal">
+
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               android:text="@string/hint_player1Name"
+               android:id="@+id/TextView_FragP1Name"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:textStyle="bold"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               android:id="@+id/TextView_FragP1Score"
+               android:text="@string/main_P1Score"
+               android:layout_gravity="center"
+               android:gravity="center"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               android:text="@string/hint_player2Name"
+               android:id="@+id/TextView_FragP2Name"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:textStyle="bold"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               android:text="@string/main_P2Score"
+               android:id="@+id/TextView_FragP2Score"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:textStyle="bold"/>
+
+
+       </LinearLayout>
+
+
+
+   </LinearLayout>
+
+</FrameLayout>
